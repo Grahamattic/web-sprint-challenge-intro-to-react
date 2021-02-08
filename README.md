@@ -30,11 +30,23 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
-1. Describe component state.
+    React JS is a component library constructed in JavaScript and used to build out user interfaces. React JS was created to solve major problems faced by Facebook developers when dealing with complex state, such as how does one manage all
+    of the state data without burdening the actual DOM. React JS is not a framework. It is a library designed to do one
+    thing really well, which is rendering user interfaces. Developers use React JS to solve problems created by temporal data changes in large applications, which contain non-static data - data that changes over time. React can be seen as
+    the V layer in the model-view-controller (MVC) pattern of software development. React JS is scalable and reusable.
 
-1. Describe props.
+2. Describe component state.
 
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+    State is a property of a variable that identifies its current relationship to a component. For example, a traffic
+    light component has three possible states: red, yellow, and green.
+
+3. Describe props.
+
+    Props are immutable (not able to be changed in react) objects containing arguments passed to react components.
+
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+
+    Props are what we use when we want to pass information held on state inside one component to another component.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
