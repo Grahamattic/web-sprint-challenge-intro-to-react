@@ -35,9 +35,6 @@ const App = () => {
     return (
         <div className="App">
             <h1 className="Header">Characters</h1>
-            {characterData.map((characterData, index)=>
-                <Character key={characterData.url} data={characterData[index]}/>
-            )}
         </div>
     );
 }
