@@ -7,4 +7,6 @@ import App from "./App";
 import { worker } from "./mocks/browser";
 worker.start();
 
+My name is Shenica Graham
+
 ReactDOM.render(<App />, document.getElementById("root"));
